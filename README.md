@@ -27,7 +27,20 @@ cargo run
 ### Example Output
 Upon running the project, you can expect the following output:
 ```
-[insert example output, e.g., a successful authentication message or a model prediction result]
+Raw response: {
+  "candidates": [
+    {
+      "content": {
+        "role": "model",
+        "parts": [
+          {
+            "text": "Hi there! I'm happy to help in any way I can. Here are some of the things I can assist you with: [list of capabilities]. Please let me know how I can assist you today."
+          }
+        ]
+      }
+    }
+  ]
+}
 ```
 
 ## Basic Contents
